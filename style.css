@@ -1,0 +1,57 @@
+
+
+body{
+  font-family: 'Quicksand', sans-serif;
+  margin:5%;
+}
+
+h1 a{
+  text-decoration:none;
+  color:red;
+  font-weight: normal;
+}
+h2 a{
+  text-decoration:none;
+  color:#808080;
+
+}
+h3 a{
+  text-decoration:none;
+}
+h2,h3{
+  font-weight: normal;
+}
+h3{
+  font-size:40px;
+}
+.navigation {
+display:flex;
+justify-content: space-between;;
+}
+.flex-item{
+  color:#808080;
+  /*width: 100px;*/
+  /*height: 100px;*/
+  /*margin: 0px;*/
+}
+/*article{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+}*/
+article{
+  display: flex;
+  flex-direction: column;
+  /*align-content: center;*/
+
+}
+.call a{
+  float:right;
+  color: red;
+  font-weight:bold;
+}
+
+p:first-letter{
+  font-size:60px;
+}
